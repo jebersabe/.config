@@ -20,6 +20,8 @@ vim.keymap.set("n", "{", "{zzzv")
 vim.keymap.set("n", "}", "}zzzv")
 vim.keymap.set("n", "<leader>lw", "<cmd>set wrap!<CR>")
 vim.keymap.set("n", "G", "Gzz")
+vim.keymap.set("n", "#", "#zz")
+vim.keymap.set("n", "*", "*zz")
 
 -- Stay in indent mode
 vim.keymap.set("v", "<", "<gv")
@@ -90,3 +92,4 @@ vim.keymap.set("i", "{", "{}<Escape>i")
 vim.keymap.set("i", "{{", "{{  }}<Escape>2hi")
 vim.keymap.set("i", "'", "''<Escape>i")
 vim.keymap.set('i', '"', '""<Escape>i')
+
