@@ -22,6 +22,7 @@ vim.keymap.set("n", "<leader>lw", "<cmd>set wrap!<CR>")
 vim.keymap.set("n", "G", "Gzz")
 vim.keymap.set("n", "#", "#zz")
 vim.keymap.set("n", "*", "*zz")
+vim.keymap.set("n", "gd", "gdzt")
 
 -- Stay in indent mode
 vim.keymap.set("v", "<", "<gv")
